@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html,
+div#app {
+  height: 100%;
+}
+
+@layer components {
+  .modal-overlay-bg {
+    @apply fixed top-0 left-0 right-0 bottom-0 z-[100] bg-colorModalBackground opacity-80;
+  }
+  .modal-overlay-content {
+    @apply fixed top-[50%] left-[50%] z-[100] h-screen w-full max-w-[900px] translate-x-[-50%] translate-y-[-50%] flex items-center justify-center;
+  }
+}
