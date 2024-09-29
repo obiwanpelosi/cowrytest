@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Image } from "@/models";
 import AppModalOverlay from "./AppModalOverlay.vue";
-import { onMounted, useTemplateRef, watch } from "vue";
+import { useTemplateRef, watch } from "vue";
 
 defineProps<{
   active: boolean;
