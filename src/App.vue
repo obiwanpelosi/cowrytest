@@ -65,7 +65,7 @@ onMounted(async () => {
       />
     </header>
     <section
-      class="max-w-[800px] border mx-auto px-4 py-10 md:relative md:top-[-70px]"
+      class="max-w-[800px] mx-auto px-4 py-10 md:relative md:top-[-70px]"
     >
       <LoadingComponent v-if="loading" />
       <div v-else-if="images.length === 0" class="mt-[70px] text-center">
