@@ -38,7 +38,7 @@ watch(
           <img
             loading="lazy"
             ref="imageRef"
-            :src="image?.urls.full"
+            :src="image?.urls.regular"
             :alt="image?.alt_description"
             class="w-full h-full object-cover rounded-t-md opacity-0 transition-opacity duration-500"
           />
